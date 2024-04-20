@@ -1,0 +1,100 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } */
+  
+  /* .blog-post {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  } */
+  
+  /* .blog-post:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .blog-post h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .blog-post p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-post {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-post {
+      width: 100%;
+    }
+  } */
+  
+
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap on multiple lines */
+    justify-content: space-between; /* Distribute items evenly with space between */
+  }
+  
+  @media screen and (min-width: 500px) { /* Target large screens (adjust breakpoint as needed) */
+    .blog-post {
+      flex: 0 0 33.33%; /* Set a fixed width for 3 divs per row */
+      margin: 10px; /* Add spacing between posts */
+    }
+  }
+  
+  @media screen and (max-width: 750px) { /* Target small screens (adjust breakpoint as needed) */
+    .blog-post {
+      flex: 1 0 100%; /* Allow single post per row */
+    }
+  }
+  
+  .blog-post:hover {
+    background-color: #f2f2f2; /* Change background color on hover (adjust as desired) */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  .blog-post-image {
+    width: 100%; /* Ensure images fill the post width */
+    object-fit: cover; /* Crop images to fit while maintaining aspect ratio */
+  }
+  
+  /* Optional styles for other elements (adjust as needed) */
+  .blog-post-title {
+    margin: 10px 0; /* Add margin above and below title */
+  }
+  
+  .blog-post-category,
+  .blog-post-date,
+  .blog-post-author {
+    font-size: 0.8rem; /* Adjust font size for meta information */
+    margin-bottom: 5px; /* Add space between meta elements */
+  }
+  
+  .blog-post-content {
+    /* Add styles for post content as needed */
+  }
+  
