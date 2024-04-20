@@ -5,17 +5,18 @@ import profile from "./assets/images/profile.jpg";
 const logotext = "MUGANE";
 const meta = {
     title: "WAHOME MUGANE",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m wahome mugane: data scientist _ Full stack devloper",
 };
 
 const introdata = {
     title: "I’m Mugane Wahome",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I love data analysis",
+        first: "Passionate about coding",
+        second: "Crafting cool websites",
+        third: "Enthusiastic about data analysis",
     },
-    description: "I'm Samuel Mugane, a full-stack developer with a background in Actuarial Science. I bring a unique perspective to problem-solving and data analysis. When I'm not crafting web applications, you can find me exploring new technologies and finding creative solutions to complex challenges.",
+    
+    description:  "I'm Samuel Mugane, a passionate full-stack developer with a background in Actuarial Science. I bring a unique perspective to problem-solving and data analysis, leveraging my expertise to create innovative solutions. I have a keen focus on making data-driven decisions, using insights to guide my development process. When I'm not crafting web applications, I'm deeply focused on exploring new technologies and finding creative solutions to complex challenges, driven by my passion for continuous learning and growth.",
     your_img_url: profile,
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 
