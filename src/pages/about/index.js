@@ -11,6 +11,8 @@ import {
 } from "../../content_option";
 
 export const About = () => {
+ 
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -81,18 +83,24 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h1 className="color_sec py-4">My Services</h1>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
+
+
               return (
+                <>
                 <div className="service_ py-4" key={i}>
                  
                   <h2 className="service__title">{data.title}</h2>
                   <h4 className="service_desc">{data.description}</h4>
                   <img src={data.img} alt="" />
-                 
+                  
                 </div>
+                <button>inqure more</button>
+                
+                </>
               );
             })}
           </Col>
