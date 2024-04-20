@@ -23,7 +23,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "INTRODUCTION",
     aboutme: "I'm Samuel Mugane, a full-stack developer with a background in Actuarial Science. I bring a unique perspective to problem-solving and data analysis. When I'm not crafting web applications, you can find me exploring new technologies and finding creative solutions to complex challenges. My passion lies in bringing ideas to life through code and creating memorable user experiences.",
 };
 const workExperience = [
@@ -33,7 +33,7 @@ const workExperience = [
         date: "2024",
     },
     {
-        jobtitle: "Data analyst",
+        jobtitle: "Data analyst intern",
         where: "remote ~ India",
         date: "2023",
     },
@@ -45,48 +45,48 @@ const workExperience = [
 ];
 
 const skills = [{
-        name: "R",
+        name: "R, Python, SPSS AND STATA",
         value: 90,
     },
     {
         name: "POWER BI",
-        value: 85,
+        value: 70,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 70,
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
         name: "Node.js",
-        value: 60,
+        value: 70,
 
     },
     {
         name: "express",
-        value: 85,
+        value: 70,
     },
 
     {
         name: "mysql, mongo, postgressql",
-        value: 85,
+        value: 70,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Creating captivating user experiences that drive engagement and satisfaction. From intuitive user interfaces to seamless interactions, I craft designs that resonate with your audience and elevate your brand. Whether you're launching a new website or refreshing an existing one, I can help you create a digital experience that sets your company apart.",
     },
     {
         title: "Data Analysis",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Harnessing the power of data to uncover valuable insights and drive informed decision-making. I specialize in analyzing complex datasets to identify trends, patterns, and opportunities for optimization. Whether you're a startup or an established enterprise, I can provide data-driven solutions that propel your company forward.",
     },
     {
-        title: "canva designing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Machine Learning",
+        description: "Utilizing cutting-edge machine learning algorithms, including linear regression, logistic regression, decision trees, random forest, support vector machines (SVM), k-nearest neighbors (KNN), and naive Bayes, to build predictive models and enhance business intelligence. From recommendation systems to predictive analytics, I leverage these algorithms to help you stay ahead of the competition and make data-driven decisions that impact your company's success.",
     },
 ];
 
