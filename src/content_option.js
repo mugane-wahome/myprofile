@@ -25,7 +25,7 @@ const dataabout = {
     title: "abit about my self",
     aboutme: "I'm Samuel Mugane, a full-stack developer with a background in Actuarial Science. I bring a unique perspective to problem-solving and data analysis. When I'm not crafting web applications, you can find me exploring new technologies and finding creative solutions to complex challenges. My passion lies in bringing ideas to life through code and creating memorable user experiences.",
 };
-const worktimeline = [
+const workExperience = [
     {
         jobtitle: "Web developer intern",
         where: "Nyeri ~ Kenya",
@@ -174,7 +174,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    workExperience,
     skills,
     services,
     introdata,
