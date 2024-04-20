@@ -89,7 +89,7 @@ export const About = () => {
                 <div className="service_ py-4" key={i}>
                  
                   <h2 className="service__title">{data.title}</h2>
-                  <h3 className="service_desc">{data.description}</h3>
+                  <h4 className="service_desc">{data.description}</h4>
                   <img src={data.img} alt="" />
                  
                 </div>
