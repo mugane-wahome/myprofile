@@ -98,3 +98,16 @@
         transform: translateZ(0);
     }
 }
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  

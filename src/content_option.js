@@ -1,6 +1,9 @@
 
 import React from "react";
 import profile from "./assets/images/profile.jpg";
+import machine from "./assets/images/machine.png"
+import analysis from "./assets/images/analysis.png"
+import web from "./assets/images/web.png"
 
 const logotext = "MUGANE";
 const meta = {
@@ -77,17 +80,22 @@ const skills = [{
 ];
 
 const services = [{
+    
         title: "UI & UX Design",
         description: "Creating captivating user experiences that drive engagement and satisfaction. From intuitive user interfaces to seamless interactions, I craft designs that resonate with your audience and elevate your brand. Whether you're launching a new website or refreshing an existing one, I can help you create a digital experience that sets your company apart.",
+        img: web,
     },
     {
         title: "Data Analysis",
         description: "Harnessing the power of data to uncover valuable insights and drive informed decision-making. I specialize in analyzing complex datasets to identify trends, patterns, and opportunities for optimization. Whether you're a startup or an established enterprise, I can provide data-driven solutions that propel your company forward.",
+        img: analysis,
     },
     {
         title: "Machine Learning",
         description: "Utilizing cutting-edge machine learning algorithms, including linear regression, logistic regression, decision trees, random forest, support vector machines (SVM), k-nearest neighbors (KNN), and naive Bayes, to build predictive models and enhance business intelligence. From recommendation systems to predictive analytics, I leverage these algorithms to help you stay ahead of the competition and make data-driven decisions that impact your company's success.",
+        img: machine
     },
+    
 ];
 
 const dataportfolio = [{
@@ -97,6 +105,7 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
+        
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },

@@ -87,8 +87,11 @@ export const About = () => {
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                 
+                  <h2 className="service__title">{data.title}</h2>
+                  <h3 className="service_desc">{data.description}</h3>
+                  <img src={data.img} alt="" />
+                 
                 </div>
               );
             })}
