@@ -55,14 +55,14 @@ body {
     display: flex;
     flex-wrap: wrap; /* Allow elements to wrap on multiple lines */
     justify-content: space-around;
-    gap: 1px; /* Adjust gap size as desired (e.g., 5px, 15px) */
+    gap: 0px; /* Adjust gap size as desired (e.g., 5px, 15px) */
       } 
     /* Distribute items evenly with space between */
   
   
   @media screen and (min-width: 300px) { /* Target large screens (adjust breakpoint as needed) */
     .blog-post {
-      flex: 0 0 33%; /* Set a fixed width for 3 divs per row */
+      flex: 0 0 30%; /* Set a fixed width for 3 divs per row */
       margin: 10px; /* Add spacing between posts */
     }
   }

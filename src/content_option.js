@@ -34,17 +34,17 @@ const dataabout = {
 };
 const workExperience = [
     {
-        jobtitle: "Web developer intern",
+        jobtitle: "Software developer",
         where: "Nyeri ~ Kenya",
         date: "2024",
     },
     {
-        jobtitle: "Data analyst intern",
+        jobtitle: "Data analyst ",
         where: "remote ~ India",
         date: "2023",
     },
     {
-        jobtitle: "Peer teacher",
+        jobtitle: "Tutor",
         where: "kenya",
         date: "2020",
     },

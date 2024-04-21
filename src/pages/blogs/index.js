@@ -9,7 +9,7 @@ import img3 from "../../assets/images/img3.png";
 import img2 from "../../assets/images/img2.png";
 // import img1 from "../../assets/images/img1.png";
 import img8 from "../../assets/images/img8.png";
-
+import img9 from "../../assets/images/img9.png";
 export const Blogs = () => {
   const blogPosts = [
     {
@@ -71,12 +71,12 @@ export const Blogs = () => {
     },
     {
       id: 3,
-      title: "Getting Started with React",
+      title: "Unlocking Business Success: The Role of Actuarial Scientists",
       category: "React",
       date: "2022-05-10",
       author: "Alice Johnson",
-      content: "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and build interactive, single-page applications. React uses a declarative approach to describe how your UI should look, making it easier to understand and maintain your code.",
-      img: "https://example.com/react.jpg",
+      content: "Actuarial scientists play a crucial role in businesses, using mathematical and statistical methods to assess and mitigate various risks like insurance, investments, and pensions. Their work ensures financial stability and long-term success. They assess and quantify risks, analyze data on demographics, economic trends, and industry statistics to predict future events, and develop strategies to mitigate risks. They also play a vital role in financial planning, using data to guide decisions on investments, insurance coverage, and pension plans. In insurance, they price policies accurately and develop new products. Actuarial scientists also ensure regulatory compliance, providing expertise on complex regulatory issues. They analyze large datasets and develop mathematical models to simulate future scenarios, helping businesses understand the impact of decisions and develop risk mitigation strategies. Overall, actuarial scientists are essential for managing risk, making informed financial decisions, and complying with regulations, contributing significantly to the financial stability and success of businesses.",
+      img: img9,
       link: "https://legacy.reactjs.org/docs/getting-started.html"
     },
     {
