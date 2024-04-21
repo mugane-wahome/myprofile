@@ -32,7 +32,16 @@ export const Blogs = () => {
         img: img2,
         link: "https://www.businessdailyafrica.com/bd/corporate/technology/how-to-harness-the-power-of-ai-for-your-business-a-guide-to-efficiency-productivity-and-innovation-4533838"
       },
-      
+      {
+        id: 3,
+        title: "Unlocking Business Success: The Role of Actuarial Scientists",
+        category: "Mathematics and statistics",
+        date: "2022-05-10",
+        author: "Alice Johnson",
+        content: "Actuarial scientists play a crucial role in businesses, using mathematical and statistical methods to assess and mitigate various risks like insurance, investments, and pensions. Their work ensures financial stability and long-term success. They assess and quantify risks, analyze data on demographics, economic trends, and industry statistics to predict future events, and develop strategies to mitigate risks. They also play a vital role in financial planning, using data to guide decisions on investments, insurance coverage, and pension plans. In insurance, they price policies accurately and develop new products. Actuarial scientists also ensure regulatory compliance, providing expertise on complex regulatory issues. They analyze large datasets and develop mathematical models to simulate future scenarios, helping businesses understand the impact of decisions and develop risk mitigation strategies. Overall, actuarial scientists are essential for managing risk, making informed financial decisions, and complying with regulations, contributing significantly to the financial stability and success of businesses.",
+        img: img9,
+        link: "https://legacy.reactjs.org/docs/getting-started.html"
+      },
       
 
 
@@ -69,16 +78,7 @@ export const Blogs = () => {
       link: "https://bookdown.org/rdpeng/artofdatascience/"
 
     },
-    {
-      id: 3,
-      title: "Unlocking Business Success: The Role of Actuarial Scientists",
-      category: "React",
-      date: "2022-05-10",
-      author: "Alice Johnson",
-      content: "Actuarial scientists play a crucial role in businesses, using mathematical and statistical methods to assess and mitigate various risks like insurance, investments, and pensions. Their work ensures financial stability and long-term success. They assess and quantify risks, analyze data on demographics, economic trends, and industry statistics to predict future events, and develop strategies to mitigate risks. They also play a vital role in financial planning, using data to guide decisions on investments, insurance coverage, and pension plans. In insurance, they price policies accurately and develop new products. Actuarial scientists also ensure regulatory compliance, providing expertise on complex regulatory issues. They analyze large datasets and develop mathematical models to simulate future scenarios, helping businesses understand the impact of decisions and develop risk mitigation strategies. Overall, actuarial scientists are essential for managing risk, making informed financial decisions, and complying with regulations, contributing significantly to the financial stability and success of businesses.",
-      img: img9,
-      link: "https://legacy.reactjs.org/docs/getting-started.html"
-    },
+    
     {
       id: 4,
       title: "Understanding Regression Models",

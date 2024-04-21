@@ -53,10 +53,26 @@ body {
 
   .blog-posts {
     display: flex;
-    flex-wrap: wrap; /* Allow elements to wrap on multiple lines */
+    max-height:100%;
+    /* flex-flow:row; */
+    flex-wrap: wrap;  
+    /* Allow elements to wrap on multiple lines */
     justify-content: space-around;
-    gap: 0px; /* Adjust gap size as desired (e.g., 5px, 15px) */
+    gap: 0px;
+    border-radius: 30px; /* Adjust gap size as desired (e.g., 5px, 15px) */
       } 
+      .blog-post {
+        /* display: flex;
+        flex-wrap: wrap; /* Allow elements to wrap on multiple lines */
+        /* justify-content: space-around;
+        gap: 0px; */ 
+        max-height: 100%;
+        border-radius: 20px; /* Adjust gap size as desired (e.g., 5px, 15px) */
+          } 
+
+
+
+
     /* Distribute items evenly with space between */
   
   
@@ -74,13 +90,14 @@ body {
   }
   
   .blog-post:hover {
-    background-color: rgb(243, 16, 16); /* Change background color on hover (adjust as desired) */
+    background-color: rgb(29, 132, 173); /* Change background color on hover (adjust as desired) */
     cursor: pointer; /* Add a pointer cursor on hover */
   }
   
   .blog-post-image {
     width: 100%; /* Ensure images fill the post width */
-    object-fit: cover; /* Crop images to fit while maintaining aspect ratio */
+    object-fit: cover;
+    border-radius: 25px; /* Crop images to fit while maintaining aspect ratio */
   }
   
   /* Optional styles for other elements (adjust as needed) */
