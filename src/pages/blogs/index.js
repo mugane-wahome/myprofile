@@ -116,8 +116,7 @@ export const Blogs = () => {
             
             <h2 className="blog-post-title">{post.title}</h2>
             <p className="blog-post-category">Category: {post.category}</p>
-            {/* <p className="blog-post-date">Date: {post.date}</p>
-            <p className="blog-post-author">Author: {post.author}</p> */}
+       
             <p className="blog-post-content">{post.content}</p>
             <img src={post.img} alt={post.title} className="blog-post-image" />
           </div>
