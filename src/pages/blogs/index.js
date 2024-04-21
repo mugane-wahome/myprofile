@@ -10,6 +10,8 @@ import img2 from "../../assets/images/img2.png";
 // import img1 from "../../assets/images/img1.png";
 import img8 from "../../assets/images/img8.png";
 import img9 from "../../assets/images/img9.png";
+import img10 from "../../assets/images/img10.png";
+
 export const Blogs = () => {
   const blogPosts = [
     {
@@ -86,7 +88,7 @@ export const Blogs = () => {
       date: "2022-05-15",
       author: "Samuel Mugane",
       content: "Regression analysis is a statistical method used to examine the relationship between one dependent variable and one or more independent variables. In simple regression, there is only one independent variable, while in multivariate regression, there are multiple independent variables.",
-      img: "https://example.com/regression.jpg",
+      img: img10,
       link: "https://www.imsl.com/blog/what-is-regression-model"
     },
     {
