@@ -56,12 +56,15 @@ body {
   .blog-posts {
     display: flex;
     flex-wrap: wrap; /* Allow elements to wrap on multiple lines */
-    justify-content: space-between; /* Distribute items evenly with space between */
-  }
+    justify-content: space-around;
+    gap: 1px; /* Adjust gap size as desired (e.g., 5px, 15px) */
+      } 
+    /* Distribute items evenly with space between */
   
-  @media screen and (min-width: 500px) { /* Target large screens (adjust breakpoint as needed) */
+  
+  @media screen and (min-width: 300px) { /* Target large screens (adjust breakpoint as needed) */
     .blog-post {
-      flex: 0 0 33.33%; /* Set a fixed width for 3 divs per row */
+      flex: 0 0 33%; /* Set a fixed width for 3 divs per row */
       margin: 10px; /* Add spacing between posts */
     }
   }
@@ -73,7 +76,7 @@ body {
   }
   
   .blog-post:hover {
-    background-color: #f2f2f2; /* Change background color on hover (adjust as desired) */
+    background-color: rgb(243, 16, 16); /* Change background color on hover (adjust as desired) */
     cursor: pointer; /* Add a pointer cursor on hover */
   }
   
@@ -90,7 +93,7 @@ body {
   .blog-post-category,
   .blog-post-date,
   .blog-post-author {
-    font-size: 0.8rem; /* Adjust font size for meta information */
+    font-size: 1.6rem; /* Adjust font size for meta information */
     margin-bottom: 5px; /* Add space between meta elements */
   }
   
@@ -98,3 +101,9 @@ body {
     /* Add styles for post content as needed */
   }
   
+
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 20px;
+  }
