@@ -12,11 +12,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  .blog-post img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
+  
   
   .blog-post h2 {
     margin-top: 10px;
@@ -33,7 +29,9 @@ body {
     }
   }
   
-  
+  @media (max-width: 480px) {
+    
+  } */
   
 
   .blog-posts {
