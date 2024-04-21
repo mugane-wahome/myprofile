@@ -10,7 +10,7 @@ import img2 from "../../assets/images/img2.png";
 // import img1 from "../../assets/images/img1.png";
 import img8 from "../../assets/images/img8.png";
 
-export const Aboutt = () => {
+export const Blogs = () => {
   const blogPosts = [
     {
         id: 8,
@@ -125,4 +125,4 @@ export const Aboutt = () => {
   );
 };
 
-export default Aboutt;
+export default Blogs;
