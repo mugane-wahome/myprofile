@@ -105,7 +105,7 @@ export const Blogs = () => {
   ];
 
   const handlePostClick = (post) => {
-    window.location.href = post.link; // Access the link property of the clicked post
+    window.location.href = post.link; 
   };
 
   return (
