@@ -4,7 +4,7 @@ import profile from "./assets/images/profile.jpg";
 import machine from "./assets/images/machine.png"
 import analysis from "./assets/images/analysis.png"
 import web from "./assets/images/web.png"
-import dev from "./assets/images/dev.png"
+
 import graphics from "./assets/images/graphics.png"
 
 
