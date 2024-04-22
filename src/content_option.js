@@ -14,7 +14,7 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Mugane Wahome",
+    title: "I’m Wahome Mugane",
     animated: {
         first: "Passionate about coding",
         second: "Crafting cool websites",
