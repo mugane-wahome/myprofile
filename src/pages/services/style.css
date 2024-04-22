@@ -5,7 +5,8 @@
 .table td,
 .table th {
     color: var(--text-color);
-    color:red;
+    /* color:rgb(24, 40, 180); */
+    font-weight: bold;
     font-size: larger;
 }
 
