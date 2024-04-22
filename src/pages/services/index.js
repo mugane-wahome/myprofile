@@ -11,7 +11,9 @@ import {
 } from "../../content_option";
 
 export const Services = () => {
- 
+  const handleClick = () => {
+    alert("Button is currently disabled for maintenance purposes");
+  };
 
   return (
     <HelmetProvider>
@@ -91,7 +93,7 @@ export const Services = () => {
 
 
 
-        
+
         <Row className="sec_sp">
           <Col lang="5">
             <h1 className="color_sec py-4">My Services</h1>
@@ -109,8 +111,11 @@ export const Services = () => {
                   <img src={data.img} alt="" />
                   
                 </div>
-                <button>inqure more</button>
-                
+                {/* <button onClick={() => alert("Button is currently disabled for maintenance")}>Inquire More</button> */}
+                <button onClick={handleClick}>Inquire More</button>
+
+                {/* onClick={() => alert("This project is in finalization stage. Kindly Check later")}
+                 */}
                 </>
               );
             })}

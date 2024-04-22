@@ -22,7 +22,7 @@ const introdata = {
         third: "Enthusiastic about data analysis",
     },
     
-    description:  "I'm Samuel Mugane, a passionate full-stack developer with a background in Actuarial Science. I bring a unique perspective to problem-solving and data analysis, leveraging my expertise to create innovative solutions. I have a keen focus on making data-driven decisions, using insights to guide my development process. When I'm not crafting web applications, I'm deeply focused on exploring new technologies and finding creative solutions to complex challenges, driven by my passion for continuous learning and growth.",
+    description:  "A passionate full-stack developer with a background in Actuarial Science. I have a unique perspective to problem-solving and data analysis, leveraging my expertise to create innovative solutions. I have a keen focus on making data-driven decisions, using insights to guide my development process. When I'm not crafting web applications, I'm deeply focused on exploring new technologies and finding creative solutions to complex challenges, driven by my passion for continuous learning and growth.",
     your_img_url: profile,
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 
