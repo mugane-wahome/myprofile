@@ -12,7 +12,7 @@ import {
 
 export const Services = () => {
   const handleClick = () => {
-    alert("Button is currently disabled for maintenance purposes");
+    alert("information is being updated");
   };
 
   return (
