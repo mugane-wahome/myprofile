@@ -5,6 +5,8 @@
 .table td,
 .table th {
     color: var(--text-color);
+    color:red;
+    font-size: larger;
 }
 
 .t_border {
