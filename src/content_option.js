@@ -4,11 +4,10 @@ import profile from "./assets/images/profile.jpg";
 import machine from "./assets/images/machine.png"
 import analysis from "./assets/images/analysis.png"
 import web from "./assets/images/web.png"
-
 import graphics from "./assets/images/graphics.png"
 
 
-const logotext = "MUGANE";
+const logotext = "mugane";
 const meta = {
     title: "WAHOME MUGANE",
     description: "I’m wahome mugane: data scientist _ Full stack devloper",
