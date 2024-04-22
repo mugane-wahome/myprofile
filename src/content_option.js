@@ -185,8 +185,8 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/mugane-wahome",
     facebook: "https://facebook.com",
-    linkedin: "www.linkedin.com/in/wahome-mugane",
-    twitter: "hhttps://x.com/MeMugane?t=xECC7sCk3MAHCrPJn4GjDA&s=09",
+    linkedin: "https://www.linkedin.com/in/wahome-mugane/",
+    twitter: "https://x.com/MeMugane?t=xECC7sCk3MAHCrPJn4GjDA&s=09",
 };
 
 export {
