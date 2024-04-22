@@ -123,3 +123,8 @@ img {
     height: auto;
   }
   
+
+  .service{
+    /* background-color: #b84848;  */
+    color: bisque;
+  }

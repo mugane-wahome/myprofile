@@ -107,7 +107,7 @@ export const Services = () => {
                 <>
                 
           
-                <div className="service_ py-4" key={i}>
+                <div className="service" key={i}>
                  
                   <h2 className="service__title">{data.title}</h2>
                   <h4 className="service_desc">{data.description}</h4>
