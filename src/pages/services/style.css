@@ -105,7 +105,13 @@ h3{
     margin-bottom: 1rem;
     color: var(--text-color);
 }
-
+h5 {
+    color: #fff; /* White text color */
+    background-color: #331c1c; /* Dark background color */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
 img {
     max-width: 100%;
     height: auto;

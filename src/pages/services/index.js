@@ -97,6 +97,7 @@ export const Services = () => {
         <Row className="sec_sp">
           <Col lang="5">
             <h1 className="color_sec py-4">My Services</h1>
+            <h5>Hey there! Are you looking for services to enhance your online presence, create stunning visual designs, or analyze your business data? Whether you need a user-friendly website, captivating job posters and logos, or insightful data analysis, I'm here to help. Let's discuss how we can elevate your business together!</h5>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -104,6 +105,8 @@ export const Services = () => {
 
               return (
                 <>
+                
+          
                 <div className="service_ py-4" key={i}>
                  
                   <h2 className="service__title">{data.title}</h2>
