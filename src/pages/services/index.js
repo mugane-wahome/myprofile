@@ -12,7 +12,7 @@ import {
 
 export const Services = () => {
   const handleClick = () => {
-    alert("information is being updated");
+    alert("information is being updated, kindly check later");
   };
 
   return (
